@@ -1,1 +1,1 @@
-# js-birthday
+# birthday
