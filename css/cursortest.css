@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-  background-image: url("/birthday/images/background.jpg");
+  background-image: url("../images/background.jpg");
   background-repeat: repeat;
   background-position: center;
 }
@@ -25,7 +25,7 @@ video:focus {
   height: 3rem;
   position: absolute;
   pointer-events: none;
-  background-image: url("/birthday/images/pointer.png");
+  background-image: url("../images/pointer.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
