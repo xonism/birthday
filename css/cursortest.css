@@ -1,0 +1,121 @@
+html, body {
+  cursor: none;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  background-image: url("/birthday/images/background.jpg");
+  background-repeat: repeat;
+  background-position: center;
+}
+
+video {
+  box-shadow: 0px 0px 40px 20px #FFD700;
+}
+
+video:focus {
+  outline: none;
+}
+
+.cursor {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  pointer-events: none;
+  background-image: url("/birthday/images/pointer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 10;
+}
+
+.no-display {
+  display: none;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-title {
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  color: black;
+}
+
+#bank-grandpa {
+  height: 250px;
+  position: absolute;
+  right: 50px;
+  bottom: 0px;
+}
+
+#pleading-chowder {
+  height: 200px;
+  position: absolute;
+  right: 500px;
+  bottom: 0px;
+}
+
+#roasted-chowder {
+  position: absolute;
+  top: 25px;
+  left: 100px;
+  width: 700px;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+#crying-onion {
+  position: absolute;
+  right: 150px;
+  bottom: 50px;
+}
+
+#surprised-schnitzel {
+  position: absolute;
+  bottom: 0px;
+  left: 300px;
+}
+
+#shocked-schnitzel {
+  position: absolute;
+  bottom: 0px;
+  left: 750px;
+}
+
+#annoyed-schnitzel {
+  position: absolute;
+  bottom: 0px;
+  right: 250px;
+  height: 400px;
+}
+
+#diamond-chowder {
+  position: absolute;
+  bottom: 0px;
+  height: 400px;
+  right: 500px;
+}
+
+#angry-chowder {
+  position: absolute;
+  bottom: 0px;
+  left: 200px;
+  height: 300px;
+}

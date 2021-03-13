@@ -1,0 +1,150 @@
+@keyframes rotate {
+  from { transform: rotate( 0deg ); }
+  to { transform: rotate( 360deg ); }
+}
+
+.spinning-animation {
+  animation: rotate 2s infinite linear;
+}
+
+/***** *****/
+
+@keyframes shake {
+    0% { transform: translate( 1px, 1px ) rotate( 0deg ); }
+    10% { transform: translate( -1px, -2px ) rotate( -1deg ); }
+    20% { transform: translate( -3px, 0px ) rotate( 1deg ); }
+    30% { transform: translate( 3px, 2px ) rotate( 0deg ); }
+    40% { transform: translate( 1px, -1px ) rotate( 1deg ); }
+    50% { transform: translate( -1px, 2px ) rotate( -1deg ); }
+    60% { transform: translate( -3px, 1px ) rotate( 0deg ); }
+    70% { transform: translate( 3px, 1px ) rotate( -1deg ); }
+    80% { transform: translate( -1px, -1px ) rotate( 1deg ); }
+    90% { transform: translate( 1px, 2px ) rotate( 0deg ); }
+    100% { transform: translate( 1px, -2px ) rotate( -1deg ); }
+}
+
+/***** *****/
+
+@keyframes pop-up-0 {
+    from { bottom: -250px; }
+    to { bottom: 0px; }
+}
+
+@keyframes pop-up-50 {
+  from { bottom: -250px; }
+  to { bottom: 50px; }
+}
+
+@keyframes pop-up-150 {
+  from { bottom: -250px; }
+  to { bottom: 150px; }
+}
+
+@keyframes pop-up-175 {
+  from { bottom: -250px; }
+  to { bottom: 175px; }
+}
+
+@keyframes pop-up-200 {
+  from { bottom: -250px; }
+  to { bottom: 200px; }
+}
+
+@keyframes pop-up-250 {
+  from { bottom: -250px; }
+  to { bottom: 250px; }
+}
+
+@keyframes pop-up-350 {
+  from { bottom: -250px; }
+  to { bottom: 350px; }
+}
+
+@keyframes pop-up-375 {
+    from { bottom: -250px; }
+    to { bottom: 375px; }
+}
+
+@keyframes pop-up-400 {
+  from { bottom: -250px; }
+  to { bottom: 400px; }
+}
+
+@keyframes pop-up-450 {
+  from { bottom: -250px; }
+  to { bottom: 450px; }
+}
+
+/***** *****/
+
+.animation-0 {
+  animation: pop-up-0 2s;
+}
+
+.animation-50 {
+  animation: pop-up-50 2s;
+}
+
+.animation-150 {
+  animation: pop-up-150 2s;
+}
+
+.animation-200 {
+  animation: pop-up-200 2s;
+}
+
+.animation-175 {
+  animation: pop-up-175 2s;
+}
+
+.animation-250 {
+  animation: pop-up-250 2s;
+}
+
+.animation-350 {
+  animation: pop-up-350 2s;
+}
+
+.animation-375 {
+  animation: pop-up-375 2s;
+}
+
+.animation-400 {
+  animation: pop-up-400 2s;
+}
+
+.animation-450 {
+  animation: pop-up-450 2s;
+}
+
+/***** *****/
+
+.scale {
+  transition: all .2s ease-in-out;
+}
+
+.scale:hover {
+  transform: scale(1.1);
+}
+
+/***** *****/
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in-animation {
+  animation: fade-in 2s;
+}
+
+/***** *****/
+
+@keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.fade-out-animation {
+  animation: fade-out 2s;
+}

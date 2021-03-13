@@ -1,0 +1,97 @@
+.bubble {
+    position: absolute;
+    height: 150px;
+}
+
+.bubble_2 {
+    position: absolute;
+    height: 200px;
+}
+
+.bubble_3 {
+    position: absolute;
+    height: 250px;
+}
+
+/***** *****/
+
+#bubble-1 {
+    right: 300px;
+    bottom: 175px;
+}
+
+#bubble-2 {
+    right: 325px;
+    bottom: 175px;
+}
+
+#bubble-3 {
+    right: 300px;
+    bottom: 175px;
+}
+
+#bubble-4 {
+    right: 325px;
+    bottom: 175px;
+}
+
+#bubble-5 {
+    position: absolute;
+    height: 250px;
+    right: 150px;
+    top: 150px;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+#bubble-6 {
+    left: 250px;
+    bottom: 375px;
+}
+
+#bubble-7 {
+    left: 250px;
+    bottom: 375px;
+}
+
+#bubble-8 {
+    left: 400px;
+    bottom: 400px;
+}
+
+#bubble-9 {
+    left: 400px;
+    bottom: 400px;
+}
+
+#bubble-10 {
+    right: 500px;
+    bottom: 350px;
+}
+
+#bubble-11 {
+    bottom: 250px;
+    left: 450px;
+}
+
+#bubble-12 {
+    right: 150px;
+    bottom: 350px;
+}
+
+/***** *****/
+
+#ending-bubble-1 {
+    bottom: 350px;
+    left: 250px;
+}
+
+#ending-bubble-2 {
+    bottom: 200px;
+    right: 250px;
+}
+
+#ending-bubble-3 {
+    bottom: 50px;
+    left: 250px;
+}
